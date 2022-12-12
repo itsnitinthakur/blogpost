@@ -1,0 +1,33 @@
+{% extends 'base.html' %} 
+{% block title %} About {% endblock title %}
+ {%block aboutactive %} active {% endblock aboutactive %} 
+ {% block body %}
+<main>
+  <div class="container">
+
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">About blogit</h1>
+        <p class="col-md-8 fs-4">This website is for posting blogs where other people can comment after login.
+        Basic Search Engine is also available in order to quick search for particular content.
+        In contact Section you can submit your information which will be stored in database.This 
+        website is underdevlopment soon their will more features available like loging in through google
+        and bettter search and many more..</p>
+      </div>
+    </div>
+
+    <div class="row align-items-md-stretch">
+      <div class="col-md-6">
+        <div class="h-100 p-5 text-white bg-dark rounded-3">
+          <h2>Technologies used</h2>
+          <p>Frontend of this website is done by using bootstrap and html5.In the backend
+          Django Framework is in use.For making authentication Built in function User in django Framework
+          is used.If you want to see the code you can go through the code below</p>
+          <a href="https://github.com/itsnitinthakur/blogpost" role="button" class="btn btn-primary">click here for code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+{%endblock body %}
